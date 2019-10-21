@@ -84,13 +84,13 @@ public class CapaFiltros {
 //TODO             case SOBEL:{
 //TODO                  f.sobel();
 //TODO                 break;}
-//TODO             case PREWITT:{
-//TODO                  f.prewitt();
-//TODO                 break;}
+            case PREWITT:{
+                 f.prewitt();
+                break;}
 //TODO             case ROBERTS:{
 //TODO                  f.roberts();
 //TODO                 break;}
-//TODO             case FREICHEN:{
+//TODO  FALTA           case FREICHEN:{
 //TODO                  f.freiChen();
 //TODO                 break;}
 //TODO             case LAPLACE:{
