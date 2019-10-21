@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:state_pressed="true"
+         android:drawable="@android:color/holo_orange_dark" /> <!-- pressed -->
+           <!--android:drawable="@android:drawable/ic_notification_overlay" /> &lt;!&ndash; pressed &ndash;&gt;-->
+
+     <item android:state_focused="true"
+           android:drawable="@android:drawable/gallery_thumb" /> <!-- focused -->
+
+     <item android:state_selected="true"
+         android:drawable="@android:color/holo_orange_dark" /><!-- selected -->
+           <!--android:drawable="@android:drawable/ic_notification_overlay" /> &lt;!&ndash; selected &ndash;&gt;-->
+
+     <item android:drawable="@android:drawable/gallery_thumb" /> <!-- default -->
+ </selector>

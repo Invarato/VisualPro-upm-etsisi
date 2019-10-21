@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">VisualPro-upm-etsisi</string>
+
+    <string name="menu_cargar">Cargar</string>
+    <string name="menu_guardar">Guardar</string>
+    <string name="menu_filtros">Filtros</string>
+    <string name="Nombre_del_archivo">Nombre del archivo</string>
+    <string name="No_existe_admin">No existe ningún administrador de imágenes. Instale uno</string>
+    <string name="Selecciona_una_imagen">Selecciona una imagen</string>
+    <string name="A_ocurrido_un_error">A ocurrido un error y no se ha podido guardar</string>
+    <string name="Blanco_y_Negro">Blanco y Negro</string>
+    <string name="Transparencia">Opacidad</string>
+    <string name="Matiz">Matiz</string>
+    <string name="Saturacion">Saturación</string>
+    <string name="Intensidad">Intensidad</string>
+    <string name="Brillo">Brillo</string>
+    <string name="Solarizar">Solarizar</string>
+    <string name="Post">Posterizar</string>
+    <string name="Contraste">Contraste</string>
+    <string name="Sepia">Sepia</string>
+    <string name="Mediana">Mediana</string>
+    <string name="PBajo">Paso Bajo</string>
+    <string name="Azulado">Azulado</string>
+    <string name="Invert">Invertir</string>
+    <string name="Gris">Gris</string>
+    <string name="Gradiente">Gradiente</string>
+    <string name="Sobel">Sobel</string>
+    <string name="Prewitt">Prewitt</string>
+    <string name="Roberts">Roberts</string>
+    <string name="FreiChen">Frei-Chen</string>
+    <string name="PAlto">Realce</string>
+    <string name="Laplace">Laplaciana</string>
+    <string name="RLaplace">Realce Laplaciana</string>
+    <string name="SRoberts">Suavizado Roberts</string>
+    <string name="Procesar">Procesar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="Guardar">Guardar - Nombrar imagen</string>
+    <string name="menu_about">about</string>
+
+    <string name="imagen_no_encontrada_en_la_direccion_expecificada">Imagen no encontrada en la dirección expecificada</string>
+    <string name="Error_en_la_entrada_de_datos">Error en la entrada de datos</string>
+    <string name="No_se_ha_introducido_imagen">No se ha introducido imagen</string>
+    <string name="No_se_han_introducido_bien_los_parametros">No se han introducido bien los parámetros. Comprobar por ejemplo que no nos salimos de la imagen como que: x&lt;=bitmap_original.getWidth()</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_cortar">Cortar</string>
+    <string name="menu_sel_capa_o_capas">Seleccionar capa o capas</string>
+    <string name="transparencia">Transparencia</string>
+    <string name="sepia">Sepia</string>
+    <string name="blanco_y_negro">Blanco y Negro</string>
+    <string name="escala_de_grises">Escala de Grises</string>
+    <string name="invertir">Invertir</string>
+    <string name="azulado">Azulado</string>
+    <string name="difusi_n">Difusión</string>
+    <string name="mediana">Mediana</string>
+    <string name="matiz">Matiz</string>
+    <string name="saturaci_n">Saturación</string>
+    <string name="intensidad">Intensidad</string>
+    <string name="brillo">Brillo</string>
+    <string name="solarizar">Solarizar</string>
+    <string name="posterizar">Posterizar</string>
+    <string name="contraste">Contraste</string>
+    <string name="gradiente">Gradiente</string>
+    <string name="sobel">Sobel</string>
+    <string name="prewitt">Prewitt</string>
+    <string name="roberts">Roberts</string>
+    <string name="frei_chen">Frei-Chen</string>
+    <string name="realce">Realce</string>
+    <string name="laplaciana">Laplaciana</string>
+    <string name="realce_laplaciana">Realce Laplaciana</string>
+    <string name="suavizado_roberts">Suavizado Roberts</string>
+
+</resources>

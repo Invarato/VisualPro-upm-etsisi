@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/menu_filtros"
+		android:icon="@android:drawable/ic_menu_edit"
+		android:title="@string/menu_filtros"
+		app:showAsAction="always">
+		<menu>
+			<item android:id="@+id/SubMnuOpc_Trans"
+				android:title="@string/transparencia" />
+			<item android:id="@+id/SubMnuOpc_Sepia"
+				android:title="@string/sepia" />
+			<item android:id="@+id/SubMnuOpc_ByN"
+				android:title="@string/blanco_y_negro" />
+			<item android:id="@+id/SubMnuOpc_Grises"
+				android:title="@string/escala_de_grises" />
+			<item android:id="@+id/SubMnuOpc_Invert"
+				android:title="@string/invertir" />
+			<item android:id="@+id/SubMnuOpc_Azul"
+				android:title="@string/azulado" />
+			<item android:id="@+id/SubMnuOpc_PBajo"
+				android:title="@string/difusi_n" />
+			<item android:id="@+id/SubMnuOpc_Mediana"
+				android:title="@string/mediana" />
+			<item android:id="@+id/SubMnuOpc_Matiz"
+				android:title="@string/matiz" />
+			<item android:id="@+id/SubMnuOpc_Satura"
+				android:title="@string/saturaci_n" />
+			<item android:id="@+id/SubMnuOpc_Intensidad"
+				android:title="@string/intensidad" />
+			<item android:id="@+id/SubMnuOpc_Brillo"
+				android:title="@string/brillo" />
+			<item android:id="@+id/SubMnuOpc_Solarizar"
+				android:title="@string/solarizar" />
+			<item android:id="@+id/SubMnuOpc_Post"
+				android:title="@string/posterizar" />
+			<item android:id="@+id/SubMnuOpc_Contraste"
+				android:title="@string/contraste" />
+			<item android:id="@+id/SubMnuOpc_Gradiente"
+				android:title="@string/gradiente" />
+			<item android:id="@+id/SubMnuOpc_Sobel"
+				android:title="@string/sobel" />
+			<item android:id="@+id/SubMnuOpc_Prewitt"
+				android:title="@string/prewitt" />
+			<item android:id="@+id/SubMnuOpc_Roberts"
+				android:title="@string/roberts" />
+			<item android:id="@+id/SubMnuOpc_FreiChen"
+				android:title="@string/frei_chen" />
+			<item android:id="@+id/SubMnuOpc_PAlto"
+				android:title="@string/realce" />
+			<item android:id="@+id/SubMnuOpc_Laplace"
+				android:title="@string/laplaciana" />
+			<item android:id="@+id/SubMnuOpc_RLaplace"
+				android:title="@string/realce_laplaciana" />
+			<item android:id="@+id/SubMnuOpc_SRoberts"
+				android:title="@string/suavizado_roberts" />
+		</menu>
+	</item>
+
+	<item
+		android:id="@+id/menu_cortar"
+		android:icon="@android:drawable/ic_menu_crop"
+		android:title="@string/menu_cortar"
+		app:showAsAction="always"/>
+<!--android:icon="@android:drawable/ic_menu_gallery"-->
+	<!--<item-->
+		<!--android:id="@+id/menu_unootodo"-->
+		<!--android:icon="@android:drawable/ic_menu_mapmode"-->
+		<!--android:title="@string/menu_sel_capa_o_capas"-->
+		<!--app:showAsAction="always"></item>-->
+
+	<item
+		android:id="@+id/menu_modomapa"
+		android:icon="@android:drawable/ic_menu_mapmode"
+		android:title="@string/menu_sel_capa_o_capas"
+		app:showAsAction="always"/>
+
+	<item
+		android:id="@+id/menu_guardar"
+		android:icon="@android:drawable/ic_menu_save"
+		android:title="@string/menu_guardar"
+		app:showAsAction="ifRoom"/>
+
+	<!--<item-->
+		<!--android:id="@+id/menu_cargar"-->
+		<!--android:icon="@android:drawable/ic_menu_add"-->
+		<!--android:title="@string/menu_cargar"-->
+		<!--app:showAsAction="ifRoom"-->
+		<!--&gt;</item>-->
+
+	<item
+		android:id="@+id/menu_about"
+		android:icon="@android:drawable/ic_menu_info_details"
+		android:title="@string/menu_about"
+		app:showAsAction="ifRoom"/>
+
+
+
+
+	<!--<item-->
+		<!--android:id="@+id/menu_cancelar"-->
+		<!--android:icon="@android:drawable/ic_delete"-->
+		<!--android:title="Cancelar"-->
+		<!--app:showAsAction="never"></item>-->
+
+	<!--<item-->
+		<!--android:id="@+id/menu_aceptar"-->
+		<!--android:icon="@android:drawable/ic_input_add"-->
+		<!--android:title="Aceptar"-->
+		<!--app:showAsAction="never"></item>-->
+
+
+</menu>
