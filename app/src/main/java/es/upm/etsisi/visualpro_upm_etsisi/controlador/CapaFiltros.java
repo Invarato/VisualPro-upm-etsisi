@@ -69,39 +69,39 @@ public class CapaFiltros {
             case SOLAR:{
                  f.solarizar();
                 break;}
-//TODO            case PBAJO:{
-//TODO                 f.pasoBajo();
-//TODO                break;}
+            case PBAJO:{
+                 f.pasoBajo();
+                break;}
             case MEDIANA:{
                  f.mediana();
                 break;}
-//TODO             case GRADIENTE:{
-//TODO                  f.gradiente();
-//TODO                 break;}
-//TODO             case PALTO:{
-//TODO                  f.pasoAlto();
-//TODO                 break;}
-//TODO             case SOBEL:{
-//TODO                  f.sobel();
-//TODO                 break;}
+             case GRADIENTE:{
+                  f.gradiente();
+                 break;}
+             case PALTO:{
+                  f.pasoAlto();
+                 break;}
+             case SOBEL:{
+                  f.sobel();
+                 break;}
             case PREWITT:{
                  f.prewitt();
                 break;}
-//TODO             case ROBERTS:{
-//TODO                  f.roberts();
-//TODO                 break;}
-//TODO  FALTA           case FREICHEN:{
-//TODO                  f.freiChen();
-//TODO                 break;}
-//TODO             case LAPLACE:{
-//TODO                  f.laplaciana();
-//TODO                 break;}
-//TODO             case RLAPLACE:{
-//TODO                  f.realceLaplaciana();
-//TODO                 break;}
-//TODO             case SROBERTS:{
-//TODO                  f.suavizadoRoberts();
-//TODO                 break;}
+            case ROBERTS:{
+                 f.roberts();
+                break;}
+// TODO            case FREICHEN:{
+// TODO                 f.freiChen();
+// TODO                break;}
+            case LAPLACE:{
+                 f.laplaciana();
+                break;}
+            case RLAPLACE:{
+                 f.realceLaplaciana();
+                break;}
+            case SROBERTS:{
+                 f.suavizadoRoberts();
+                break;}
 
         }
 

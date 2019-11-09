@@ -9,6 +9,7 @@
 		app:showAsAction="always">
 		<menu>
 			<item android:id="@+id/SubMnuOpc_Trans"
+				android:enabled="false"
 				android:title="@string/transparencia" />
 			<item android:id="@+id/SubMnuOpc_Sepia"
 				android:title="@string/sepia" />
@@ -47,6 +48,7 @@
 			<item android:id="@+id/SubMnuOpc_Roberts"
 				android:title="@string/roberts" />
 			<item android:id="@+id/SubMnuOpc_FreiChen"
+				android:enabled="false"
 				android:title="@string/frei_chen" />
 			<item android:id="@+id/SubMnuOpc_PAlto"
 				android:title="@string/realce" />
